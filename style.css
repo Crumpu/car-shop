@@ -1,0 +1,19 @@
+body { 
+  background-image: url(./assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1520px;
+  width: 1080px;
+  /* margin: auto; */
+  background-color: black;
+}
+
+.logo {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.menu {
+  width: 150px;
+}
