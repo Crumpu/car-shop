@@ -1,8 +1,7 @@
-.body { 
+body { 
   background-image: url(./assets/images/background.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 1180px;
+  background-position: top, center;
   background-color: black;
   height: 5000px;
   width: 1180px;
@@ -11,18 +10,42 @@
   font-size: 0;
 }
 
+.header {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  width: 1180px;
+  box-shadow: -3px 1px 20px 0px rgba(83, 83, 83, 0.507);
+  position: fixed;
+}
+
+.h1 {
+  display: flex;
+	margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 40px;
+  border: 1px solid;
+  /* width: 200px; */
+}
+
 .logo {
-  margin-right: 20px;
-  width: 150px;
+  display:inline-flex; 
+  width: 75px;
   float: right;
+  border: 1px solid;
 } 
 
 .menu{
-  display: flex;
+  display: inline-flex;
+  border: 1px solid;
+  border-color: aliceblue;
+  width: 260px;
+  padding: 0;
+  float: left;
 }
 
 .menu-logo {
   width: 75px;
-  border: 1px solid;
   margin-left: 10px;
+  border: 1px solid;
 }
