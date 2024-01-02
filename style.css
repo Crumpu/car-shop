@@ -1,19 +1,28 @@
-body { 
+.body { 
   background-image: url(./assets/images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 1520px;
-  width: 1080px;
-  /* margin: auto; */
+  background-size: 1180px;
   background-color: black;
+  height: 5000px;
+  width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
 }
 
 .logo {
   margin-right: 20px;
-  margin-top: 20px;
   width: 150px;
+  float: right;
+} 
+
+.menu{
+  display: flex;
 }
 
-.menu {
-  width: 150px;
+.menu-logo {
+  width: 75px;
+  border: 1px solid;
+  margin-left: 10px;
 }
