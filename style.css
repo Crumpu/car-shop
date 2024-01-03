@@ -2,6 +2,7 @@ body {
   background-image: url(./assets/images/background.jpg);
   background-repeat: no-repeat;
   background-position: top, center;
+  background-size: 1180px;
   background-color: black;
   height: auto;
   width: 1180px;
@@ -12,10 +13,8 @@ body {
 /* CSS for header */
 
 .header {
-  margin-top: 0;
-  padding: 0;
   display: inline-flex;
-  /* position: fixed; */
+  position: fixed;
   background: rgba(0, 0, 0, 0.5);
   height: 100px;
   width: 1180px;
@@ -24,24 +23,26 @@ body {
 
 .h1 {
   display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  padding: 0;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .logo {
-  display: inline-flex;
+  padding-right: 12.5px;
+  padding-top: 12.5px;
   width: 75px;
-  float: right;
 }
 
 .menu {
+  margin-top: 0px;
+  padding: 0;
   display: inline-flex;
   width: 260px;
-  padding: 0;
   float: left;
   list-style-type: none;
+  vertical-align: middle;
 }
 
 .menu-logo {
@@ -52,14 +53,14 @@ body {
 /* CSS for main */
 
 .main {
-  padding-top: 880px;
+  padding-top: 580px;
   font-family: "Advent Pro", sans-serif;
   font-family: "Gabriela", serif;
   color: #bfbfbf;
 }
 
-.section {
-  margin-top: 100px;
+.article {
+  padding-top: 20px;
 }
 
 .photo {
@@ -80,4 +81,66 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 150px;
+}
+
+/* CSS for footer */
+
+.footer {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  height: 150px;
+  width: 1180px;
+  box-shadow: -3px 1px 20px 0px rgba(83, 83, 83, 0.507);
+  background-color: #000000b7;
+}
+
+.adress {
+  margin: auto;
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Gabriela", serif;
+  font-size: 20px;
+  color: #bfbfbf;
+  width: 300px;
+  height: 150px;
+}
+
+.contact {
+  width: 300px;
+  height: 150px;
+}
+
+.email:link,
+.email:visited {
+  color: #bfbfbf;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.phone:link,
+.phone:link:visited {
+  color: #bfbfbf;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.mail {
+  padding-top: 35px;
+}
+
+.tel {
+  padding-top: 35px;
+}
+
+.social-media {
+  height: 150px;
+  width: 400px;
+}
+
+.social-logo {
+  float: right;
+  padding-top: 55px;
+  padding-right: 20px;
+  width: 40px;
 }
