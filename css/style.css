@@ -1,5 +1,5 @@
 body {
-  background-image: url(./assets/images/background.jpg);
+  background-image: url(/assets/images/background.jpg);
   background-repeat: no-repeat;
   background-position: top, center;
   background-size: 1180px;
@@ -29,6 +29,13 @@ body {
   font-size: 50px;
 }
 
+.basket {
+  width: 50px;
+  padding-top: 25px;
+  padding-right: 20px;
+  float: right;
+}
+
 .logo {
   padding-right: 12.5px;
   padding-top: 12.5px;
@@ -54,6 +61,9 @@ body {
 
 .main {
   padding-top: 580px;
+}
+
+.text {
   font-family: "Advent Pro", sans-serif;
   font-family: "Gabriela", serif;
   color: #bfbfbf;
@@ -143,4 +153,20 @@ body {
   padding-top: 55px;
   padding-right: 20px;
   width: 40px;
+}
+
+/* CSS for Form */
+
+form {
+  padding-top: 600px;
+}
+
+.form-elem {
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Gabriela", serif;
+  color: #bfbfbf;
+}
+
+[for] {
+  color: #bfbfbf;
 }

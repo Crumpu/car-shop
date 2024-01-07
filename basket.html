@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/icon/icons8-car-16.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,300&family=Gabriela&display=swap"
+    rel="stylesheet">
+  <title>Placing an order</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1 class="h1">ImperiAuto</h1>
+    <div>
+      <a href="./index.html"><img src="./assets/images/imperia.png" alt="ImperiAuto" class="logo"></a>
+    </div>
+  </header>
+  <!-- Form -->
+  <form>
+    <!-- Personal info -->
+    <fieldset>
+      <legend class="text">Personal info</legend>
+      <div>
+        <label for="Fname">First name</label>
+        <input type="text" id="Fname" placeholder="First name">
+      </div>
+      <div>
+        <label for="Lname">Last name</label>
+        <input type="text" id="Lname" placeholder="Last name">
+      </div>
+      <div>
+        <label for="dtl">Born date</label>
+        <input type="datetime-local" id="dtl" checked>
+      </div>
+      <div>
+        <p class="text">Gender</p>
+        <label for="gender">Male</label>
+        <input type="radio" id="Gender" name="gender" checked>
+      </div>
+      <div>
+        <label for="gender">Female</label>
+        <input type="radio" id="gender" name="gender">
+      </div>
+    </fieldset>
+
+    <!-- Contacts -->
+
+    <fieldset>
+      <legend class="text">Contacts</legend>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email">
+      </div>
+      <div>
+        <label for="tel">Phone</label>
+        <input type="tel" id="tel" placeholder="Phone">
+      </div>
+      <div>
+        <label for="adress">Adress</label>
+        <textarea id="adress" rows="6" cols="40"></textarea>
+      </div>
+    </fieldset>
+
+    <!-- Car info -->
+
+    <fieldset>
+      <legend class="text">Car info</legend>
+      <div>
+        <label for="sel">Brand"</label>
+        <select id="sel" name="Brand">
+          <option value="---" selected>---</option>
+          <option value="Nissan">Nissan</option>
+          <option value="Porsche">Porsche</option>
+          <option value="Acura">Acura"</option>
+        </select>
+      </div>
+      <div>
+        <label for="sel">Select</label>
+        <select id="sel" name="model">
+          <option value="---" selected>---</option>
+          <option value="Nissan-Silvia">Nissan Silvia</option>
+          <option value="Nissan-GT-R">Nissan GT-R</option>
+          <option value="Nissan-Skyline-GT-R-R34">Nissan Skyline GT-R r34</option>
+          <option value="Porsche-Panamera">Porsche Panamera</option>
+          <option value="Porsche-CaymanS">Porsche CaymanS</option>
+          <option value="Porsche-911">Porsche 911</option>
+          <option value="Acura-NSX">Acura NSX</option>
+          <option value="Acura-MDX">Acura MDX</option>
+          <option value="Acura-TLX">Acura TLX</option>
+        </select>
+      </div>
+      <div>
+        <label for="chb">Used</label>
+        <input type="checkbox" id="chb">
+      </div>
+      <p>Color</p>
+      <div>
+        <label for="red">Red</label>
+        <input type="radio" id="red" name="color">
+        <label for="black">Black</label>
+        <input type="radio" id="black" name="color">
+        <label for="blue">Blue</label>
+        <input type="radio" id="blue" name="color">
+        <label for="green">Green</label>
+        <input type="radio" id="green" name="color">
+        <label for="Yellow">Yellow</label>
+        <input type="radio" id="Yellow" name="color">
+        <label for="a-color">Another color</label>
+        <input type="color" id="a-color" name="color">
+      </div>
+      <div>
+        <label for="range">Price</label>
+        <input type="range" id="range" min="50k" max="300k" step="10k" list="money">
+        <datalist id="money">
+          <option value="50" label="50"></option>
+          <option value="60" label="60"></option>
+          <option value="70" label="70"></option>
+          <option value="80" label="80"></option>
+          <option value="90" label="90"></option>
+          <option value="100" label="100"></option>
+          <option value="110" label="110"></option>
+          <option value="120" label="120"></option>
+          <option value="130" label="130"></option>
+          <option value="140" label="140"></option>
+          <option value="150" label="150"></option>
+          <option value="160" label="160"></option>
+          <option value="170" label="170"></option>
+          <option value="180" label="180"></option>
+          <option value="190" label="190"></option>
+          <option value="200" label="200"></option>
+          <option value="210" label="210"></option>
+          <option value="220" label="220"></option>
+          <option value="230" label="230"></option>
+          <option value="240" label="240"></option>
+          <option value="250" label="250"></option>
+          <option value="260" label="260"></option>
+          <option value="270" label="270"></option>
+          <option value="280" label="280"></option>
+          <option value="290" label="290"></option>
+          <option value="300" label="300"></option>
+        </datalist>
+      </div>
+    </fieldset>
+    <div>
+      <label for="reset"></label>
+      <input type="reset" id="reset">
+    </div>
+    <div>
+      <label for="submit"></label>
+      <input type="submit" id="submit">
+    </div>
+  </form>
+
+</body>
+
+</html>
