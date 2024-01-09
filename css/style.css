@@ -1,4 +1,4 @@
-body {
+.car-shop-body {
   background-image: url(/assets/images/background.jpg);
   background-repeat: no-repeat;
   background-position: top, center;
@@ -153,20 +153,4 @@ body {
   padding-top: 55px;
   padding-right: 20px;
   width: 40px;
-}
-
-/* CSS for Form */
-
-form {
-  padding-top: 600px;
-}
-
-.form-elem {
-  font-family: "Advent Pro", sans-serif;
-  font-family: "Gabriela", serif;
-  color: #bfbfbf;
-}
-
-[for] {
-  color: #bfbfbf;
 }
