@@ -25,7 +25,7 @@
   display: inline-flex;
   margin: auto;
   padding: 0;
-  color: white;
+  color: #bfbfbf;
   font-size: 50px;
 }
 
@@ -106,6 +106,7 @@ th,
 td {
   border: 2px solid #bfbfbf;
   text-align: center;
+
 }
 
 /* CSS for footer */

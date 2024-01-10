@@ -24,7 +24,9 @@ h1 {
 
 /* main */
 
-body, [id], datalist {
+body,
+[id],
+datalist {
   font-family: "Advent Pro", sans-serif;
   font-family: "Gabriela", serif;
   font-size: 25px;
@@ -42,7 +44,6 @@ body {
 div {
   display: grid;
   grid-auto-flow: column;
-  
 }
 
 form {
@@ -70,7 +71,7 @@ legend {
   margin-left: 220px;
   border: 0;
   border-radius: 20px;
-  box-shadow: 0 5 1px 1px rgba(255, 255, 255, 0.137);
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.137);
   width: 30%;
   height: 50px;
   color: #383838;
@@ -80,7 +81,8 @@ legend {
   height: 200px;
 }
 
-#male, #female {
+#male,
+#female {
   width: 50px;
 }
 
@@ -106,16 +108,16 @@ input[name="color"] {
 #a-color {
   margin-left: 180px;
   width: 80px;
-  padding: 0px; 
+  padding: 0px;
   border-radius: 0;
 }
 
 .div-range {
-  display: flexbox;
+  display: flex;
 }
 
-.div-range{
-  display: flexbox;
+.div-range {
+  display: flex;
 }
 
 #range {
