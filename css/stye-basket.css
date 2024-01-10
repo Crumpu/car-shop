@@ -76,6 +76,10 @@ legend {
   color: #383838;
 }
 
+#adress {
+  height: 200px;
+}
+
 #male, #female {
   width: 50px;
 }
@@ -110,10 +114,20 @@ input[name="color"] {
   display: flexbox;
 }
 
+.div-range{
+  display: flexbox;
+}
+
+#range {
+  position: absolute;
+  width: 300px;
+}
+
+option[value] {
+  margin-top: 50px;
+}
+
 datalist {
   display: flex;
   flex-direction: row;
 }
-
-
-
