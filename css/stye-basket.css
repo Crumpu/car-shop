@@ -110,26 +110,41 @@ input[name="color"] {
   border-radius: 0;
 }
 
-#range {
+#rangeValue {
   position: absolute;
-  width: 340px;
+  padding: 5px;
+  width: auto;
+  height: auto;
 }
 
-option[value] {
-  margin-top: 70px;
-  width: 140px;
-  color: #000;
+#rangeValue::before {
+  content: '$ ';
+}
+
+#rangeValue::after {
+  content: '.000';
+}
+
+label[for="file"] {
+  width: 200px;
 }
 
 input[type="file"] {
   display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
   padding-top: 5px;
   padding-left: 20px;
-  width: 500px;
+  width: 450px;
   height: 40px;
   background-color: white;
 }
 
-[type="reset"], [type="submit"] {
+[type="reset"],
+[type="submit"] {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
   color: #000;
 }

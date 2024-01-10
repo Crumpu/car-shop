@@ -111,7 +111,7 @@
         </div>
         <div>
           <label for="red" class="color">Red</label>
-          <input type="radio" id="red" name="color">
+          <input type="radio" id="red" name="color" checked>
           <label for="black" class="color">Black</label>
           <input type="radio" id="black" name="color">
           <label for="blue" class="color">Blue</label>
@@ -125,9 +125,13 @@
           <label for="a-color">Another color</label>
           <input type="color" id="a-color" name="a-color">
         </div>
-        <div class="div-range">
+        <div>
           <label for="range">Price</label>
-          <input type="range" id="range" name="price" min="50" max="300" step="50" list="money" value="50">
+          <input type="range" min="50" max="300" step="5"
+            onchange="document.getElementById('rangeValue').innerHTML = this.value;" list="money" value="50">
+          <span id="rangeValue">
+            50
+          </span>
           <datalist id="money">
             <option value="50" label="50"></option>
             <option value="100" label="100"></option>
@@ -140,7 +144,7 @@
       </fieldset>
       <fieldset>
         <legend>Payment</legend>
-        <div class="payment">
+        <div>
           <label for="file">Attach the payment receipt</label>
           <input type="file" id="file">
         </div>
@@ -156,6 +160,3 @@
 </body>
 
 </html>
-
-<!-- <label for="image">image</label>
-<input type="image" id="image" src="./assets/icon/icons8-car-16.png"> -->
