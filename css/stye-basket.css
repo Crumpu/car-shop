@@ -75,9 +75,9 @@ legend {
   margin-left: 220px;
   border: 0;
   border-radius: 20px;
-  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.137);
   width: 30%;
   height: 50px;
+  color: #000;
 }
 
 #male,
@@ -95,26 +95,34 @@ input[type="checkbox"] {
 
 .color {
   position: relative;
+  margin-left: auto;
 }
 
 input[name="color"] {
-  margin-left: -50px;
+  margin-left: 10px;
   margin-right: 50px;
   width: 50px;
 }
 
 #a-color {
-  margin-left: 180px;
+  margin-left: 220px;
   width: 80px;
   padding: 0px;
   border-radius: 0;
 }
 
+label[for="range"]{
+  margin-top: 20px;
+}
+
 #rangeValue {
   position: absolute;
-  padding: 5px;
+  margin-left: 550px;
+  /* margin-top: 50px; */
+  padding: 10px;
   width: auto;
   height: auto;
+  color: #bfbfbf;
 }
 
 #rangeValue::before {
@@ -125,14 +133,19 @@ input[name="color"] {
   content: '.000';
 }
 
+input[type="range"] {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 220px;
+  width: 300px;
+}
+
 label[for="file"] {
   width: 200px;
 }
 
 input[type="file"] {
-  display: flex;
-  align-items: center;
-  margin-top: 25px;
+  margin-top: 28px;
   margin-bottom: 20px;
   padding-top: 5px;
   padding-left: 20px;

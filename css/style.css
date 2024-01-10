@@ -55,7 +55,6 @@
 .menu-logo {
   width: 75px;
   margin-left: 10px;
-  /* margin-bottom: ; */
 }
 
 /* CSS for main */
@@ -106,8 +105,8 @@ th,
 td {
   border: 2px solid #bfbfbf;
   text-align: center;
-
 }
+
 
 /* CSS for footer */
 
