@@ -59,7 +59,7 @@
       <!-- Contacts -->
 
       <fieldset>
-        <legend class="text">Contacts</legend>
+        <legend>Contacts</legend>
         <div>
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="Email">
@@ -76,8 +76,8 @@
 
       <!-- Car info -->
 
-      <fieldset>
-        <legend class="text">Car info</legend>
+      <fieldset class="car-info">
+        <legend>Car info</legend>
         <div>
           <label for="sel">Brand</label>
           <select id="sel">
@@ -138,6 +138,13 @@
           </datalist>
         </div>
       </fieldset>
+      <fieldset>
+        <legend>Payment</legend>
+        <div class="payment">
+          <label for="file">Attach the payment receipt</label>
+          <input type="file" id="file">
+        </div>
+      </fieldset>
       <div>
         <label for="reset"></label>
         <input type="reset" id="reset">
@@ -149,3 +156,6 @@
 </body>
 
 </html>
+
+<!-- <label for="image">image</label>
+<input type="image" id="image" src="./assets/icon/icons8-car-16.png"> -->

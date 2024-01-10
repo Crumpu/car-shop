@@ -41,6 +41,10 @@ body {
   margin-right: auto;
 }
 
+.car-info {
+  padding-bottom: 60px;
+}
+
 div {
   display: grid;
   grid-auto-flow: column;
@@ -74,11 +78,6 @@ legend {
   box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.137);
   width: 30%;
   height: 50px;
-  color: #383838;
-}
-
-#adress {
-  height: 200px;
 }
 
 #male,
@@ -86,13 +85,12 @@ legend {
   width: 50px;
 }
 
-input[type="checkbox"] {
-  width: 50px;
+#adress {
+  height: 200px;
 }
 
-textarea {
-  width: 30%;
-  height: 150px;
+input[type="checkbox"] {
+  width: 50px;
 }
 
 .color {
@@ -112,24 +110,26 @@ input[name="color"] {
   border-radius: 0;
 }
 
-.div-range {
-  display: flex;
-}
-
-.div-range {
-  display: flex;
-}
-
 #range {
   position: absolute;
-  width: 300px;
+  width: 340px;
 }
 
 option[value] {
-  margin-top: 50px;
+  margin-top: 70px;
+  width: 140px;
+  color: #000;
 }
 
-datalist {
+input[type="file"] {
   display: flex;
-  flex-direction: row;
+  padding-top: 5px;
+  padding-left: 20px;
+  width: 500px;
+  height: 40px;
+  background-color: white;
+}
+
+[type="reset"], [type="submit"] {
+  color: #000;
 }
